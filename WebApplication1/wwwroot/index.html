@@ -8,17 +8,23 @@
     <h1>Complex Type</h1>
     <form id="form1" method="post" action="api/updates/complex">
         <div>
-            <label for="status">Status</label>
+            <label for="status1">Status 1</label>
+            <input name="status[]" type="text" id="status1" />
         </div>
         <div>
-            <input name="status" type="text" />
+            <label for="date1">Date 1</label>
+            <input name="date[]" type="date" id="date1" />
+        </div>
+
+        <div>
+            <label for="status2">Status 2</label>
+            <input name="status[]" type="text" id="status2" />
         </div>
         <div>
-            <label for="date">Date</label>
+            <label for="date2">Date 2</label>
+            <input name="date[]" type="date" id="date2" />
         </div>
-        <div>
-            <input name="date" type="text" />
-        </div>
+
         <div>
             <input type="submit" value="Submit" />
         </div>
