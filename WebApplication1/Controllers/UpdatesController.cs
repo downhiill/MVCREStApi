@@ -35,7 +35,6 @@ public class UpdatesController : ControllerBase
         {
             return Ok(update);
         }
-
         return NotFound("Update not found");
     }
 }
